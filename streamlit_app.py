@@ -16,6 +16,8 @@ import base64
 data_path = '/Users/hugo/Desktop/Capstone IE/loan/loan_balanced_6040.csv'  
 data = pd.read_csv(data_path)
 
+server - app.server
+
 # Prétraitement des données
 X = data[['annual_inc', 'term', 'loan_amnt', 'home_ownership_OWN']]
 y = data['loan_status']
