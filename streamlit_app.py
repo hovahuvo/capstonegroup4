@@ -13,7 +13,7 @@ from io import BytesIO
 import base64
 
 # Chargement des données
-data_path = 'path/to/your/dataset.csv'  # Assurez-vous de mettre à jour le chemin
+data_path = '/Users/hugo/Desktop/Capstone IE/loan/loan_balanced_6040.csv'  
 data = pd.read_csv(data_path)
 
 # Prétraitement des données
